@@ -33,8 +33,6 @@ namespace SeleniumTest
             Percy percy = new Percy(driver);
             percy.snapshot("percy test");
 
-            //driver.Title();
-
             driver.Quit();
         }
     }
